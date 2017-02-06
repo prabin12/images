@@ -17,10 +17,10 @@ location_id = 2 #initilize location id
 
  path = "/home/prabin/Desktop/image/" # change as required
   files = Dir.glob(path + "*.jpg")
-   conn=PGconn.connect( :hostaddr => "ec2-54-225-83-198.compute-1.amazonaws.com", :port=>5432, :dbname =>"dubf6suc9gskl",
-                         :user=>"bzgzosfwpyleze", :password=>'LseNyL9l-qv1hdK6pQNTHGiBxJ') # change the value as required
+   conn=PGconn.connect( :hostaddr => " ", :port=>5432, :dbname =>" ",
+                         :user=>" ", :password=>' ') # change the value as required
 
- #conn=PGconn.connect( :hostaddr => "127.0.0.1", :port=>5432, :dbname =>"foto", :user=>"prabin", :password=>'123456')
+ #conn=PGconn.connect( :hostaddr => "127.0.0.1", :port=>5432, :dbname =>"foto", :user=>"prabin", :password=>' ')
 files.each do |file_name|
 
        a = file_name
